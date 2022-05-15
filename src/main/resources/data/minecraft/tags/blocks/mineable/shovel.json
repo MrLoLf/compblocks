@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "compressedblocks:compressed_dirt_x1",
+    "compressedblocks:compressed_dirt_x2",
+    "compressedblocks:compressed_dirt_x3",
+    "compressedblocks:compressed_dirt_x4",
+    "compressedblocks:compressed_dirt_x5",
+    "compressedblocks:compressed_dirt_x6",
+    "compressedblocks:compressed_dirt_x7",
+    "compressedblocks:compressed_dirt_x8",
+    "compressedblocks:compressed_sand_x1",
+    "compressedblocks:compressed_sand_x2",
+    "compressedblocks:compressed_sand_x3",
+    "compressedblocks:compressed_sand_x4",
+    "compressedblocks:compressed_sand_x5",
+    "compressedblocks:compressed_sand_x6",
+    "compressedblocks:compressed_sand_x7",
+    "compressedblocks:compressed_sand_x8",
+    "compressedblocks:compressed_gravel_x1",
+    "compressedblocks:compressed_gravel_x2",
+    "compressedblocks:compressed_gravel_x3",
+    "compressedblocks:compressed_gravel_x4",
+    "compressedblocks:compressed_gravel_x5",
+    "compressedblocks:compressed_gravel_x6",
+    "compressedblocks:compressed_gravel_x7",
+    "compressedblocks:compressed_gravel_x8"
+  ]
+}

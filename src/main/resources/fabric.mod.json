@@ -6,29 +6,30 @@
   "name": "Compressed Blocks",
   "description": "Adds compressed versions of various blocks",
   "authors": [
-    "MrWinABagel"
+    "Fabian Roscher"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/compressed-blocks-for-fabric",
-    "sources": "https://github.com/MrWinABagel/compblocks"
+    "sources": "https://github.com/MrLoLf/compblocks"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/compressedblocks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.mrwinabagel.compressedblocks"
+      "net.mrlolf.compressedblocks.CompressedBlocks"
     ]
   },
   "mixins": [
+    "compressedblocks.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "~1.18.2",
+    "java": ">=17"
   },
   "suggests": {
     "flamingo": "*"

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "compressedblocks:compressed_sand_x6",
+    "compressedblocks:compressed_sand_x7",
+    "compressedblocks:compressed_gravel_x6",
+    "compressedblocks:compressed_gravel_x7",
+    "compressedblocks:compressed_cobblestone_x6",
+    "compressedblocks:compressed_cobblestone_x7",
+    "compressedblocks:compressed_netherrack_x6",
+    "compressedblocks:compressed_netherrack_x7"
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "package": "net.mrlolf.compressedblocks.mixin",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "MainMixin"
   ],
   "injectors": {
     "defaultRequire": 1
