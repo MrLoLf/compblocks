@@ -95,6 +95,38 @@ public class compressedblocks{
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
 	public static final Block COMPRESSED_NETHERRACK8 = registerBlock("compressed_netherrack_x8",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,50000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON = registerBlock("compressed_iron_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON2 = registerBlock("compressed_iron_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON3 = registerBlock("compressed_iron_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON4 = registerBlock("compressed_iron_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON5 = registerBlock("compressed_iron_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON6 = registerBlock("compressed_iron_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON7 = registerBlock("compressed_iron_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_IRON8 = registerBlock("compressed_iron_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,50000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY = registerBlock("compressed_clay_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY2 = registerBlock("compressed_clay_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY3 = registerBlock("compressed_clay_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY4 = registerBlock("compressed_clay_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY5 = registerBlock("compressed_clay_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY6 = registerBlock("compressed_clay_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY7 = registerBlock("compressed_clay_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_CLAY8 = registerBlock("compressed_clay_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
 
 
 		private static Block registerBlock(String name, Block block, ItemGroup group){

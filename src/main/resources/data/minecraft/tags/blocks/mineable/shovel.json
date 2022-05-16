@@ -24,6 +24,14 @@
     "compressedblocks:compressed_gravel_x5",
     "compressedblocks:compressed_gravel_x6",
     "compressedblocks:compressed_gravel_x7",
-    "compressedblocks:compressed_gravel_x8"
+    "compressedblocks:compressed_gravel_x8",
+    "compressedblocks:compressed_clay_x1",
+    "compressedblocks:compressed_clay_x2",
+    "compressedblocks:compressed_clay_x3",
+    "compressedblocks:compressed_clay_x4",
+    "compressedblocks:compressed_clay_x5",
+    "compressedblocks:compressed_clay_x6",
+    "compressedblocks:compressed_clay_x7",
+    "compressedblocks:compressed_clay_x8"
   ]
 }

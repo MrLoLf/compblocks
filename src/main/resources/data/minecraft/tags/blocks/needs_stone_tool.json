@@ -8,6 +8,10 @@
     "compressedblocks:compressed_cobblestone_x4",
     "compressedblocks:compressed_cobblestone_x5",
     "compressedblocks:compressed_netherrack_x4",
-    "compressedblocks:compressed_netherrack_x5"
+    "compressedblocks:compressed_netherrack_x5",
+    "compressedblocks:compressed_iron_x4",
+    "compressedblocks:compressed_iron_x5",
+    "compressedblocks:compressed_clay_x4",
+    "compressedblocks:compressed_clay_x5"
   ]
 }

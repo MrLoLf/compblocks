@@ -4,6 +4,8 @@
     "compressedblocks:compressed_gravel_x8",
     "compressedblocks:compressed_sand_x8",
     "compressedblocks:compressed_cobblestone_x8",
-    "compressedblocks:compressed_netherrack_x8"
+    "compressedblocks:compressed_netherrack_x8",
+    "compressedblocks:compressed_iron_x8",
+    "compressedblocks:compressed_clay_x8"
   ]
 }

@@ -38,5 +38,21 @@
   "block.compressedblocks.compressed_netherrack_x5": "5x Compressed Netherrack",
   "block.compressedblocks.compressed_netherrack_x6": "6x Compressed Netherrack",
   "block.compressedblocks.compressed_netherrack_x7": "7x Compressed Netherrack",
-  "block.compressedblocks.compressed_netherrack_x8": "8x Compressed Netherrack"
+  "block.compressedblocks.compressed_netherrack_x8": "8x Compressed Netherrack",
+  "block.compressedblocks.compressed_iron_x1": "1x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x2": "2x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x3": "3x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x4": "4x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x5": "5x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x6": "6x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x7": "7x Compressed Iron",
+  "block.compressedblocks.compressed_iron_x8": "8x Compressed Iron",
+  "block.compressedblocks.compressed_clay_x1": "1x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x2": "2x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x3": "3x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x4": "4x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x5": "5x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x6": "6x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x7": "7x Compressed Clay",
+  "block.compressedblocks.compressed_clay_x8": "8x Compressed Clay"
 }

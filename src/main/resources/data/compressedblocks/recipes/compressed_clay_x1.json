@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:clay"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_clay_x1",
+    "count": 1
+  }
+}

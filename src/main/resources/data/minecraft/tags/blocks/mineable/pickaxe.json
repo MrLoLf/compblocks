@@ -16,6 +16,14 @@
     "compressedblocks:compressed_netherrack_x5",
     "compressedblocks:compressed_netherrack_x6",
     "compressedblocks:compressed_netherrack_x7",
-    "compressedblocks:compressed_netherrack_x8"
+    "compressedblocks:compressed_netherrack_x8",
+    "compressedblocks:compressed_iron_x1",
+    "compressedblocks:compressed_iron_x2",
+    "compressedblocks:compressed_iron_x3",
+    "compressedblocks:compressed_iron_x4",
+    "compressedblocks:compressed_iron_x5",
+    "compressedblocks:compressed_iron_x6",
+    "compressedblocks:compressed_iron_x7",
+    "compressedblocks:compressed_iron_x8"
   ]
 }
