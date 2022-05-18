@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model":  "compressedblocks:block/compressed_gravel_x5"}
+    "": {
+      "model":  "compressedblocks:block/compressed_gravel_x5"
+    }
   }
 }

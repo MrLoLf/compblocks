@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model":  "compressedblocks:block/compressed_dirt_x2"}
+    "": {
+      "model":  "compressedblocks:block/compressed_dirt_x2"
+    }
   }
 }

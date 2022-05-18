@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "compressedblocks:compressed_birch_x1"
+    }
+  ],
+
+  "result":
+  {
+    "item": "minecraft:birch_log",
+    "count": 9
+  }
+}

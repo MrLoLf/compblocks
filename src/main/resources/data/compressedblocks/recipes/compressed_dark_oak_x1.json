@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:dark_oak_log"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_dark_oak_x1",
+    "count": 1
+  }
+}

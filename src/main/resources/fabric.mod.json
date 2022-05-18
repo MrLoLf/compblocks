@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "compressedblocks",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "Compressed Blocks",
   "description": "Adds compressed versions of various blocks",

@@ -6,6 +6,19 @@
     "compressedblocks:compressed_cobblestone_x8",
     "compressedblocks:compressed_netherrack_x8",
     "compressedblocks:compressed_iron_x8",
-    "compressedblocks:compressed_clay_x8"
+    "compressedblocks:compressed_clay_x8",
+    "compressedblocks:compressed_acacia_x8",
+    "compressedblocks:compressed_amethyst_x8",
+    "compressedblocks:compressed_birch_x8",
+    "compressedblocks:compressed_coal_x8",
+    "compressedblocks:compressed_copper_x8",
+    "compressedblocks:compressed_dark_oak_x8",
+    "compressedblocks:compressed_diamond_x8",
+    "compressedblocks:compressed_emerald_x8",
+    "compressedblocks:compressed_gold_x8",
+    "compressedblocks:compressed_jungle_x8",
+    "compressedblocks:compressed_oak_x8",
+    "compressedblocks:compressed_slime_x8",
+    "compressedblocks:compressed_spruce_x8"
   ]
 }

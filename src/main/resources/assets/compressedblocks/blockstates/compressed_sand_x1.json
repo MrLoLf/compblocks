@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model":  "compressedblocks:block/compressed_sand_x1"}
+    "": {
+      "model":  "compressedblocks:block/compressed_sand_x1"
+    }
   }
 }

@@ -1,5 +1,6 @@
 {
   "variants": {
-    "": { "model":  "compressedblocks:block/compressed_clay_x4"}
+    "": {
+      "model":  "compressedblocks:block/compressed_clay_x4"}
   }
 }
