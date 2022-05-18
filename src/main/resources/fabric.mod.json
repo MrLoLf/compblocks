@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "compressedblocks",
-  "version": "1.0",
+  "version": "1.2",
 
   "name": "Compressed Blocks",
   "description": "Adds compressed versions of various blocks",
@@ -26,9 +26,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.5",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+    "minecraft": "1.19.x",
     "java": ">=17"
   },
   "suggests": {

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_acacia_x1",
+    "count": 1
+  }
+}
