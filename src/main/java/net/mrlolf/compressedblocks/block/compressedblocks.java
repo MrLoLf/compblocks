@@ -1,19 +1,18 @@
 package net.mrlolf.compressedblocks.block;
 
-import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
-import net.minecraft.item.*;
-import net.minecraft.tag.BlockTags;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mrlolf.compressedblocks.CompressedBlocks;
 
 
-public class compressedblocks{
+public class compressedblocks {
 
 	public static final Block COMPRESSED_COBBLESTONE = registerBlock("compressed_cobblestone_x1",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(3,40).requiresTool()), ItemGroup.MATERIALS);
@@ -127,6 +126,102 @@ public class compressedblocks{
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
 	public static final Block COMPRESSED_SLIME8 = registerBlock("compressed_slime_x8",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE = registerBlock("compressed_andesite_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE2 = registerBlock("compressed_andesite_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE3 = registerBlock("compressed_andesite_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE4 = registerBlock("compressed_andesite_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE5 = registerBlock("compressed_andesite_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE6 = registerBlock("compressed_andesite_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE7 = registerBlock("compressed_andesite_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_ANDESITE8 = registerBlock("compressed_andesite_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE = registerBlock("compressed_deepslate_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE2 = registerBlock("compressed_deepslate_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE3 = registerBlock("compressed_deepslate_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE4 = registerBlock("compressed_deepslate_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE5 = registerBlock("compressed_deepslate_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE6 = registerBlock("compressed_deepslate_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE7 = registerBlock("compressed_deepslate_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DEEPSLATE8 = registerBlock("compressed_deepslate_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE = registerBlock("compressed_diorite_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE2 = registerBlock("compressed_diorite_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE3 = registerBlock("compressed_diorite_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE4 = registerBlock("compressed_diorite_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE5 = registerBlock("compressed_diorite_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE6 = registerBlock("compressed_diorite_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE7 = registerBlock("compressed_diorite_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_DIORITE8 = registerBlock("compressed_diorite_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE = registerBlock("compressed_granite_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE2 = registerBlock("compressed_granite_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE3 = registerBlock("compressed_granite_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE4 = registerBlock("compressed_granite_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE5 = registerBlock("compressed_granite_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE6 = registerBlock("compressed_granite_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE7 = registerBlock("compressed_granite_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_GRANITE8 = registerBlock("compressed_granite_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN = registerBlock("compressed_obsidian_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN2 = registerBlock("compressed_obsidian_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN3 = registerBlock("compressed_obsidian_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN4 = registerBlock("compressed_obsidian_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN5 = registerBlock("compressed_obsidian_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN6 = registerBlock("compressed_obsidian_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN7 = registerBlock("compressed_obsidian_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_OBSIDIAN8 = registerBlock("compressed_obsidian_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ = registerBlock("compressed_quartz_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ2 = registerBlock("compressed_quartz_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ3 = registerBlock("compressed_quartz_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ4 = registerBlock("compressed_quartz_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ5 = registerBlock("compressed_quartz_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ6 = registerBlock("compressed_quartz_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ7 = registerBlock("compressed_quartz_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_QUARTZ8 = registerBlock("compressed_quartz_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,100000).requiresTool()), ItemGroup.MATERIALS);
 	//Ores
 	public static final Block COMPRESSED_AMETHYST = registerBlock("compressed_amethyst_x1",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
@@ -239,6 +334,38 @@ public class compressedblocks{
 	public static final Block COMPRESSED_IRON7 = registerBlock("compressed_iron_x7",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
 	public static final Block COMPRESSED_IRON8 = registerBlock("compressed_iron_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,50000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS = registerBlock("compressed_lapis_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS2 = registerBlock("compressed_lapis_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS3 = registerBlock("compressed_lapis_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS4 = registerBlock("compressed_lapis_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS5 = registerBlock("compressed_lapis_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS6 = registerBlock("compressed_lapis_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS7 = registerBlock("compressed_lapis_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_LAPIS8 = registerBlock("compressed_lapis_x8",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,50000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE = registerBlock("compressed_redstone_x1",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,40).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE2 = registerBlock("compressed_redstone_x2",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,100).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE3 = registerBlock("compressed_redstone_x3",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,200).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE4 = registerBlock("compressed_redstone_x4",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(2,1000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE5 = registerBlock("compressed_redstone_x5",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,2000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE6 = registerBlock("compressed_redstone_x6",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(3,5000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE7 = registerBlock("compressed_redstone_x7",
+			new Block(FabricBlockSettings.of(Material.STONE).strength(4,10000).requiresTool()), ItemGroup.MATERIALS);
+	public static final Block COMPRESSED_REDSTONE8 = registerBlock("compressed_redstone_x8",
 			new Block(FabricBlockSettings.of(Material.STONE).strength(4,50000).requiresTool()), ItemGroup.MATERIALS);
 	// Wood
 	public static final Block COMPRESSED_ACACIA = registerBlock("compressed_acacia_x1",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "item": "compressedblocks:compressed_obsidian_x1"
+    }
+  ],
+
+  "result":
+  {
+    "item": "minecraft:obsidian",
+    "count": 9
+  }
+}
