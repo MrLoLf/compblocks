@@ -19,6 +19,14 @@
     "compressedblocks:compressed_jungle_x8",
     "compressedblocks:compressed_oak_x8",
     "compressedblocks:compressed_slime_x8",
-    "compressedblocks:compressed_spruce_x8"
+    "compressedblocks:compressed_spruce_x8",
+    "compressedblocks:compressed_andesite_x8",
+    "compressedblocks:compressed_deepslate_x8",
+    "compressedblocks:compressed_diorite_x8",
+    "compressedblocks:compressed_granite_x8",
+    "compressedblocks:compressed_lapis_x8",
+    "compressedblocks:compressed_obsidian_x8",
+    "compressedblocks:compressed_quartz_x8",
+    "compressedblocks:compressed_redstone_x8"
   ]
 }

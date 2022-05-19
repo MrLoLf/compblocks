@@ -50,6 +50,22 @@
     "compressedblocks:compressed_slime_x6",
     "compressedblocks:compressed_slime_x7",
     "compressedblocks:compressed_spruce_x6",
-    "compressedblocks:compressed_spruce_x7"
+    "compressedblocks:compressed_spruce_x7",
+    "compressedblocks:compressed_andesite_x6",
+    "compressedblocks:compressed_andesite_x7",
+    "compressedblocks:compressed_deepslate_x6",
+    "compressedblocks:compressed_deepslate_x7",
+    "compressedblocks:compressed_diorite_x6",
+    "compressedblocks:compressed_diorite_x7",
+    "compressedblocks:compressed_granite_x6",
+    "compressedblocks:compressed_granite_x7",
+    "compressedblocks:compressed_lapis_x6",
+    "compressedblocks:compressed_lapis_x7",
+    "compressedblocks:compressed_obsidian_x6",
+    "compressedblocks:compressed_obsidian_x7",
+    "compressedblocks:compressed_quartz_x6",
+    "compressedblocks:compressed_quartz_x7",
+    "compressedblocks:compressed_redstone_x6",
+    "compressedblocks:compressed_redstone_x7"
   ]
 }
