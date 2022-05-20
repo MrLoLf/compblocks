@@ -5,13 +5,13 @@
   [
 
     {
-      "item": "compressedblocks:compressed_birch_x6"
+      "item": "compressedblocks:compressed_andesite_x6"
     }
   ],
 
   "result":
   {
-    "item": "compressedblocks:compressed_birch_x5",
+    "item": "compressedblocks:compressed_andesite_x5",
     "count": 9
   }
 }

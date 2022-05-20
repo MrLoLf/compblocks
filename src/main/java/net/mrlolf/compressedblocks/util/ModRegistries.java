@@ -1,0 +1,126 @@
+package net.mrlolf.compressedblocks.util;
+
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.mrlolf.compressedblocks.CompressedBlocks;
+import net.mrlolf.compressedblocks.block.compressedblocks;
+
+public class ModRegistries {
+    public static void registerModStuffs(){
+        registerFuels();
+        registerFlammableBlock();
+    }
+
+    private static void registerFlammableBlock(){
+        CompressedBlocks.LOGGER.info("Registering Flamable Blocks for "+ CompressedBlocks.MOD_ID);
+        FlammableBlockRegistry registry = FlammableBlockRegistry.getDefaultInstance();
+        registry.add(compressedblocks.COMPRESSED_ACACIA, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_ACACIA8, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_BIRCH8, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK8, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_OAK8, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE8, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE2, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE3, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE4, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE5, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE6, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE7, 5, 5);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE8, 5, 5);
+    }
+    private static void registerFuels(){
+        CompressedBlocks.LOGGER.info("Registering Fuels for "+ CompressedBlocks.MOD_ID);
+        FuelRegistry registry = FuelRegistry.INSTANCE;
+        registry.add(compressedblocks.COMPRESSED_ACACIA, 16000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA2, 18000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA3, 20000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA4, 22000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA5, 24000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA6, 28000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA7, 30000);
+        registry.add(compressedblocks.COMPRESSED_ACACIA8, 32000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH, 16000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH2, 18000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH3, 20000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH4, 22000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH5, 24000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH6, 28000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH7, 30000);
+        registry.add(compressedblocks.COMPRESSED_BIRCH8, 32000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK, 16000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK2, 18000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK3, 20000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK4, 22000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK5, 24000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK6, 28000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK7, 30000);
+        registry.add(compressedblocks.COMPRESSED_DARK_OAK8, 32000);
+        registry.add(compressedblocks.COMPRESSED_OAK, 16000);
+        registry.add(compressedblocks.COMPRESSED_OAK2, 18000);
+        registry.add(compressedblocks.COMPRESSED_OAK3, 20000);
+        registry.add(compressedblocks.COMPRESSED_OAK4, 22000);
+        registry.add(compressedblocks.COMPRESSED_OAK5, 24000);
+        registry.add(compressedblocks.COMPRESSED_OAK6, 28000);
+        registry.add(compressedblocks.COMPRESSED_OAK7, 30000);
+        registry.add(compressedblocks.COMPRESSED_OAK8, 32000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE, 16000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE2, 18000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE3, 20000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE4, 22000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE5, 24000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE6, 28000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE7, 30000);
+        registry.add(compressedblocks.COMPRESSED_JUNGLE8, 32000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE, 16000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE2, 18000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE3, 20000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE4, 22000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE5, 24000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE6, 28000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE7, 30000);
+        registry.add(compressedblocks.COMPRESSED_SPRUCE8, 32000);
+        registry.add(compressedblocks.COMPRESSED_COAL, 16000);
+        registry.add(compressedblocks.COMPRESSED_COAL2, 18000);
+        registry.add(compressedblocks.COMPRESSED_COAL3, 20000);
+        registry.add(compressedblocks.COMPRESSED_COAL4, 22000);
+        registry.add(compressedblocks.COMPRESSED_COAL5, 24000);
+        registry.add(compressedblocks.COMPRESSED_COAL6, 28000);
+        registry.add(compressedblocks.COMPRESSED_COAL7, 30000);
+        registry.add(compressedblocks.COMPRESSED_COAL8, 32000);
+    }
+}
