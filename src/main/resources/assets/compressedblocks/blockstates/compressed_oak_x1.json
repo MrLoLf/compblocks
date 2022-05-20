@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-      "model":  "compressedblocks:block/compressed_oak_x1"
+    "axis=x": {
+      "model": "compressedblocks:block/compressed_oak_x1_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "compressedblocks:block/compressed_oak_x1"
+    },
+    "axis=z": {
+      "model": "compressedblocks:block/compressed_oak_x1_horizontal",
+      "x": 90
     }
   }
 }

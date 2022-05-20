@@ -2,6 +2,7 @@ package net.mrlolf.compressedblocks;
 
 import net.fabricmc.api.ModInitializer;
 import net.mrlolf.compressedblocks.block.compressedblocks;
+import net.mrlolf.compressedblocks.util.ModRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,5 +12,6 @@ public class CompressedBlocks implements ModInitializer {
     @Override
     public void onInitialize(){
         compressedblocks.registerBlocks();
+        ModRegistries.registerModStuffs();
     }
 }
