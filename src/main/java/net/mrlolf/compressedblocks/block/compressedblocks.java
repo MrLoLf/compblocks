@@ -14,6 +14,13 @@ import net.mrlolf.compressedblocks.CompressedBlocks;
 import net.mrlolf.compressedblocks.block.custom.*;
 
 
+/*
+TODO: Add Stone
+TODO: Add Endstone
+TODO: Add Glass
+TODO: Add Wool
+TODO: Add Terracotta
+ */
 public class compressedblocks{
 
 	public static final Block COMPRESSED_COBBLESTONE = registerBlock("compressed_cobblestone_x1",
