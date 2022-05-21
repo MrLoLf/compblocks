@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "c:glass_blocks"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_glass_x1",
+    "count": 1
+  }
+}

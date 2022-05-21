@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "tag": "c:compressed_wool_x1"
+    }
+  ],
+
+  "result":
+  {
+    "item": "minecraft:white_wool",
+    "count": 9
+  }
+}

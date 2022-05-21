@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "compressedblocks:block/compressed_stone_x4"
+      },
+      {
+        "model": "compressedblocks:block/compressed_stone_x4_mirrored"
+      },
+      {
+        "model": "compressedblocks:block/compressed_stone_x4",
+        "y": 180
+      },
+      {
+        "model": "compressedblocks:block/compressed_stone_x4_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

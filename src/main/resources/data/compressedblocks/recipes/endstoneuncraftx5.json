@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "tag": "c:compressed_end_stone_x5"
+    }
+  ],
+
+  "result":
+  {
+    "item": "compressedblocks:compressed_end_stone_x4",
+    "count": 9
+  }
+}

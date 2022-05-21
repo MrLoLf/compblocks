@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "tag": "c:compressed_stone_x8"
+    }
+  ],
+
+  "result":
+  {
+    "item": "compressedblocks:compressed_stone_x7",
+    "count": 9
+  }
+}
