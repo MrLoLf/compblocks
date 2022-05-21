@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_end_stone_x1",
+    "count": 1
+  }
+}
