@@ -11,7 +11,6 @@ import net.mrlolf.compressedblocks.CompressedBlocks;
 
 
 /*
-TODO: Add Wool
 TODO: Add Terracotta
  */
 public class compressedblocks{
