@@ -2,18 +2,15 @@ package net.mrlolf.compressedblocks.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-
 import net.minecraft.block.*;
-import net.minecraft.item.*;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.mrlolf.compressedblocks.CompressedBlocks;
 
-
-/*
-TODO: Add Terracotta
- */
-public class compressedblocks{
+public class compressedblocks {
 
 	public static final Block COMPRESSED_COBBLESTONE = registerBlock("compressed_cobblestone_x1",
 			new Block(FabricBlockSettings.copy(Blocks.COBBLESTONE).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
@@ -46,6 +43,22 @@ public class compressedblocks{
 	public static final Block COMPRESSED_STONE7 = registerBlock("compressed_stone_x7",
 			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_STONE8 = registerBlock("compressed_stone_x8",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(4,100000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA = registerBlock("compressed_terracotta_x1",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA2 = registerBlock("compressed_terracotta_x2",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(2,100).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA3 = registerBlock("compressed_terracotta_x3",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(2,200).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA4 = registerBlock("compressed_terracotta_x4",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(2,1000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA5 = registerBlock("compressed_terracotta_x5",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(3,2000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA6 = registerBlock("compressed_terracotta_x6",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(3,5000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA7 = registerBlock("compressed_terracotta_x7",
+			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_TERRACOTTA8 = registerBlock("compressed_terracotta_x8",
 			new Block(FabricBlockSettings.copy(Blocks.STONE).strength(4,100000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_END_STONE = registerBlock("compressed_end_stone_x1",
 			new Block(FabricBlockSettings.copy(Blocks.END_STONE).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
