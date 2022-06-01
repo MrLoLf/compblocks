@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "tag": "c:compressed_terracotta_x1"
+    }
+  ],
+
+  "result":
+  {
+    "item": "minecraft:terracotta",
+    "count": 9
+  }
+}

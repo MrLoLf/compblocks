@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "compressedblocks:compressed_terracotta_x1",
+    "count": 1
+  }
+}
