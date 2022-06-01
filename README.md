@@ -11,3 +11,28 @@ This mod allows you to compress the following blocks into condensed versions to 
 - **Gravel**
 - **Sand**
 - **Netherrack**
+- **Iron**
+- **Clay**
+- **Acacia Wood**
+- **Birch Wood**
+- **Oak Wood**
+- **Dark Oak Wood**
+- **Jungle Wood**
+- **Gold**
+- **Coal**
+- **Emerald**
+- **Diamond**
+- **Amethyst**
+- **Copper**
+- **Lapis**
+- **Redstone**
+- **Andesite**
+- **Diorite**
+- **Granite**
+- **Obsidian**
+- **Deepslate**
+- **Quartz**
+- **Wool**
+- **Stone**
+- **Glass**
+- **Terracotta**
