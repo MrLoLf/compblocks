@@ -204,6 +204,22 @@ public class compressedblocks {
 			new Block(FabricBlockSettings.copy(Blocks.DEEPSLATE).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_DEEPSLATE8 = registerBlock("compressed_deepslate_x8",
 			new Block(FabricBlockSettings.copy(Blocks.DEEPSLATE).strength(4,100000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE = registerBlock("compressed_cobbled_deepslate_x1",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE2 = registerBlock("compressed_cobbled_deepslate_x2",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(2,100).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE3 = registerBlock("compressed_cobbled_deepslate_x3",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(2,200).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE4 = registerBlock("compressed_cobbled_deepslate_x4",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(2,1000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE5 = registerBlock("compressed_cobbled_deepslate_x5",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(3,2000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE6 = registerBlock("compressed_cobbled_deepslate_x6",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(3,5000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE7 = registerBlock("compressed_cobbled_deepslate_x7",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_COBBLED_DEEPSLATE8 = registerBlock("compressed_cobbled_deepslate_x8",
+			new Block(FabricBlockSettings.copy(Blocks.COBBLED_DEEPSLATE).strength(4,100000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_DIORITE = registerBlock("compressed_diorite_x1",
 			new Block(FabricBlockSettings.copy(Blocks.DIORITE).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_DIORITE2 = registerBlock("compressed_diorite_x2",
