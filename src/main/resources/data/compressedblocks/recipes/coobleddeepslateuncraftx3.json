@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+
+    {
+      "tag": "c:compressed_cobbled_deepslate_x3"
+    }
+  ],
+
+  "result":
+  {
+    "item": "compressedblocks:compressed_cobbled_deepslate_x2",
+    "count": 9
+  }
+}

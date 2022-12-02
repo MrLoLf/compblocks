@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model":  "compressedblocks:block/compressed_cobblestone_x8"
+      "model": "compressedblocks:block/compressed_cobblestone_x8"
     }
   }
 }
