@@ -262,5 +262,13 @@
   "block.compressedblocks.compressed_deepslate_x5": "5x Compressed Deepslate",
   "block.compressedblocks.compressed_deepslate_x6": "6x Compressed Deepslate",
   "block.compressedblocks.compressed_deepslate_x7": "7x Compressed Deepslate",
-  "block.compressedblocks.compressed_deepslate_x8": "8x Compressed Deepslate"
+  "block.compressedblocks.compressed_deepslate_x8": "8x Compressed Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x1": "1x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x2": "2x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x3": "3x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x4": "4x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x5": "5x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x6": "6x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x7": "7x Compressed Cobbled Deepslate",
+  "block.compressedblocks.compressed_cobbled_deepslate_x8": "8x Compressed Cobbled Deepslate"
 }

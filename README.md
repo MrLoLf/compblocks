@@ -30,6 +30,7 @@ This mod allows you to compress the following blocks into condensed versions to 
 - **Diorite**
 - **Granite**
 - **Obsidian**
+- **Cobbled Deepslate**
 - **Deepslate**
 - **Quartz**
 - **Wool**
