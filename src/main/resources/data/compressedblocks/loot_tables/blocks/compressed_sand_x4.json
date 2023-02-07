@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "compressedblocks:compressed_sand_x1"
+          "name": "compressedblocks:compressed_sand_x4"
         }
       ],
       "conditions": [
