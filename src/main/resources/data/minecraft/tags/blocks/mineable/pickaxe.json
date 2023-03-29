@@ -184,6 +184,14 @@
     "compressedblocks:compressed_redstone_x5",
     "compressedblocks:compressed_redstone_x6",
     "compressedblocks:compressed_redstone_x7",
-    "compressedblocks:compressed_redstone_x8"
+    "compressedblocks:compressed_redstone_x8",
+    "compressedblocks:compressed_netherite_x1",
+    "compressedblocks:compressed_netherite_x2",
+    "compressedblocks:compressed_netherite_x3",
+    "compressedblocks:compressed_netherite_x4",
+    "compressedblocks:compressed_netherite_x5",
+    "compressedblocks:compressed_netherite_x6",
+    "compressedblocks:compressed_netherite_x7",
+    "compressedblocks:compressed_netherite_x8"
   ]
 }
