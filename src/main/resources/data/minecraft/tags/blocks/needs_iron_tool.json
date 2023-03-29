@@ -76,6 +76,8 @@
     "compressedblocks:compressed_quartz_x6",
     "compressedblocks:compressed_quartz_x7",
     "compressedblocks:compressed_redstone_x6",
-    "compressedblocks:compressed_redstone_x7"
+    "compressedblocks:compressed_redstone_x7",
+    "compressedblocks:compressed_netherite_x6",
+    "compressedblocks:compressed_netherite_x7"
   ]
 }
