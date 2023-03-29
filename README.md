@@ -26,14 +26,16 @@ This mod allows you to compress the following blocks into condensed versions to 
 - **Copper**
 - **Lapis**
 - **Redstone**
+- **Netherite**
 - **Andesite**
 - **Diorite**
 - **Granite**
 - **Obsidian**
-- **Coobled Deepslate**
+- **Cobbled Deepslate**
 - **Deepslate**
 - **Quartz**
 - **Wool**
 - **Stone**
 - **Glass**
 - **Terracotta**
+

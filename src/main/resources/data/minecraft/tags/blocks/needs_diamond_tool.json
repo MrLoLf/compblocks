@@ -32,6 +32,7 @@
     "compressedblocks:compressed_lapis_x8",
     "compressedblocks:compressed_obsidian_x8",
     "compressedblocks:compressed_quartz_x8",
-    "compressedblocks:compressed_redstone_x8"
+    "compressedblocks:compressed_redstone_x8",
+    "compressedblocks:compressed_netherite_x8"
   ]
 }
