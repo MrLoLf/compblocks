@@ -26,6 +26,7 @@ This mod allows you to compress the following blocks into condensed versions to 
 - **Copper**
 - **Lapis**
 - **Redstone**
+- **Netherite**
 - **Andesite**
 - **Diorite**
 - **Granite**

@@ -13,7 +13,9 @@ import net.mrlolf.compressedblocks.CompressedBlocks;
 
 
 public class compressedblocks {
-
+    //
+    // Blocks
+    //
     public static final Block COMPRESSED_COBBLESTONE = registerBlock("compressed_cobblestone_x1",
             new Block(FabricBlockSettings.copy(Blocks.COBBLESTONE).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_COBBLESTONE2 = registerBlock("compressed_cobblestone_x2",
@@ -318,7 +320,9 @@ public class compressedblocks {
             new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 10000)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL8 = registerBlock("compressed_wool_x8",
             new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 100000)), ItemGroups.BUILDING_BLOCKS);
+    //
     //Ores
+    //
     public static final Block COMPRESSED_AMETHYST = registerBlock("compressed_amethyst_x1",
             new AmethystBlock(FabricBlockSettings.copy(Blocks.AMETHYST_BLOCK).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_AMETHYST2 = registerBlock("compressed_amethyst_x2",
@@ -463,7 +467,25 @@ public class compressedblocks {
             new RedstoneBlock(FabricBlockSettings.copy(Blocks.REDSTONE_BLOCK).strength(4, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_REDSTONE8 = registerBlock("compressed_redstone_x8",
             new RedstoneBlock(FabricBlockSettings.copy(Blocks.REDSTONE_BLOCK).strength(4, 50000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE = registerBlock("compressed_netherite_x1",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE2 = registerBlock("compressed_netherite_x2",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2, 100).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE3 = registerBlock("compressed_netherite_x3",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2, 200).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE4 = registerBlock("compressed_netherite_x4",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2, 1000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE5 = registerBlock("compressed_netherite_x5",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(3, 2000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE6 = registerBlock("compressed_netherite_x6",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(3, 5000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE7 = registerBlock("compressed_netherite_x7",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(4, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    public static final Block COMPRESSED_NETHERITE8 = registerBlock("compressed_netherite_x8",
+            new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(4, 50000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+    //
     // Wood
+    //
     public static final Block COMPRESSED_ACACIA = registerBlock("compressed_acacia_x1",
             new PillarBlock(FabricBlockSettings.copy(Blocks.ACACIA_LOG).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_ACACIA2 = registerBlock("compressed_acacia_x2",
