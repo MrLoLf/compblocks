@@ -24,10 +24,6 @@
       "net.mrlolf.compressedblocks.ClientCompressedBlocks"
     ]
   },
-  "mixins": [
-    "compressedblocks.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric": "*",
