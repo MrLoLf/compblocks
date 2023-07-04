@@ -7,9 +7,13 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.minecraft.registry.Registry;
 import net.mrlolf.compressedblocks.CompressedBlocks;
+
+import static net.mrlolf.compressedblocks.CompressedBlocks.MOD_ID;
 
 
 public class compressedblocks {
@@ -561,18 +565,19 @@ public class compressedblocks {
     public static final Block COMPRESSED_SPRUCE8 = registerBlock("compressed_spruce_x8",
             new PillarBlock(FabricBlockSettings.copy(Blocks.SPRUCE_LOG).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
 
-    private static Block registerBlock(String name, Block block, ItemGroup group) {
+
+    private static Block registerBlock(String name, Block block, RegistryKey<ItemGroup> group) {
         registerBlockItem(name, block, group);
-        return Registry.register(Registries.BLOCK, new Identifier(CompressedBlocks.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
+    private static Item registerBlockItem(String name, Block block, RegistryKey<ItemGroup> group) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(block));
-        return Registry.register(Registries.ITEM, new Identifier(CompressedBlocks.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
     public static void registerBlocks() {
-        CompressedBlocks.LOGGER.info("Registering Blocks for " + CompressedBlocks.MOD_ID);
+        CompressedBlocks.LOGGER.info("Registering Blocks for " + MOD_ID);
     }
 }
