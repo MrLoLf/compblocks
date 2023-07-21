@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "compressedblocks",
-  "version": "1.10",
+  "version": "1.11",
 
   "name": "Compressed Blocks",
   "description": "Adds compressed versions of various blocks",
@@ -24,10 +24,6 @@
       "net.mrlolf.compressedblocks.ClientCompressedBlocks"
     ]
   },
-  "mixins": [
-    "compressedblocks.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric": "*",

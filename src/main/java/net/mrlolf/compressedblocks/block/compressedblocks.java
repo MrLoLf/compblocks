@@ -464,6 +464,22 @@ public class compressedblocks{
 			new RedstoneBlock(FabricBlockSettings.copy(Blocks.REDSTONE_BLOCK).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	public static final Block COMPRESSED_REDSTONE8 = registerBlock("compressed_redstone_x8",
 			new RedstoneBlock(FabricBlockSettings.copy(Blocks.REDSTONE_BLOCK).strength(4,50000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE = registerBlock("compressed_netherite_x1",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE2 = registerBlock("compressed_netherite_x2",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2,100).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE3 = registerBlock("compressed_netherite_x3",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2,200).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE4 = registerBlock("compressed_netherite_x4",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(2,1000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE5 = registerBlock("compressed_netherite_x5",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(3,2000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE6 = registerBlock("compressed_netherite_x6",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(3,5000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERITE7 = registerBlock("compressed_netherite_x7",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(4,10000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+	public static final Block COMPRESSED_NETHERIRE8 = registerBlock("compressed_netherite_x8",
+			new RedstoneBlock(FabricBlockSettings.copy(Blocks.NETHERITE_BLOCK).strength(4,50000).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 	// Wood
 	public static final Block COMPRESSED_ACACIA = registerBlock("compressed_acacia_x1",
 			new PillarBlock(FabricBlockSettings.copy(Blocks.ACACIA_LOG).strength(2,40).requiresTool()), ItemGroup.BUILDING_BLOCKS);
