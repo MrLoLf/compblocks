@@ -10,6 +10,7 @@ This mod allows you to compress the following blocks into condensed versions to 
 - **Dirt**
 - **Gravel**
 - **Sand**
+- **Netherite**
 - **Netherrack**
 - **Iron**
 - **Clay**
