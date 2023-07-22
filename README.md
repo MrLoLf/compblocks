@@ -7,6 +7,7 @@ I got inspired by [Compressed Blocks for Fabric](https://www.curseforge.com/mine
 This mod allows you to compress the following blocks into condensed versions to save on storage space:
 
 - **Cobblestone**
+- **Netherite**
 - **Dirt**
 - **Gravel**
 - **Sand**
