@@ -595,6 +595,6 @@ public class compressedblocks {
     }
 
     public static void registerBlocks() {
-        // CompressedBlocks.LOGGER.info("Registering Blocks for " + MOD_ID);
+        CompressedBlocks.LOGGER.info("Registering Blocks for " + MOD_ID);
     }
 }
