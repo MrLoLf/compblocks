@@ -100,37 +100,37 @@ public class compressedblocks {
     public static final Block COMPRESSED_DIRT8 = registerBlock("compressed_dirt_x8",
             new Block(FabricBlockSettings.copy(Blocks.DIRT).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL = registerBlock("compressed_gravel_x1",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(3, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(3, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL2 = registerBlock("compressed_gravel_x2",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(4, 100).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(4, 100).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL3 = registerBlock("compressed_gravel_x3",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(6, 150).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(6, 150).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL4 = registerBlock("compressed_gravel_x4",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(8, 200).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(8, 200).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL5 = registerBlock("compressed_gravel_x5",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(10, 500).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(10, 500).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL6 = registerBlock("compressed_gravel_x6",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(12, 1000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(12, 1000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL7 = registerBlock("compressed_gravel_x7",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(16, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(16, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GRAVEL8 = registerBlock("compressed_gravel_x8",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(20, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.GRAVEL).strength(20, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND = registerBlock("compressed_sand_x1",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND2 = registerBlock("compressed_sand_x2",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 100).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 100).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND3 = registerBlock("compressed_sand_x3",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 200).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 200).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND4 = registerBlock("compressed_sand_x4",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 1000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(2, 1000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND5 = registerBlock("compressed_sand_x5",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(3, 2000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(3, 2000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND6 = registerBlock("compressed_sand_x6",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(3, 5000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(3, 5000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND7 = registerBlock("compressed_sand_x7",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(4, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(4, 10000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_SAND8 = registerBlock("compressed_sand_x8",
-            new FallingBlock(FabricBlockSettings.copy(Blocks.SAND).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new GravityBlock(FabricBlockSettings.copy(Blocks.SAND).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_NETHERRACK = registerBlock("compressed_netherrack_x1",
             new NetherrackBlock(FabricBlockSettings.copy(Blocks.NETHERRACK).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_NETHERRACK2 = registerBlock("compressed_netherrack_x2",
@@ -292,37 +292,37 @@ public class compressedblocks {
     public static final Block COMPRESSED_QUARTZ8 = registerBlock("compressed_quartz_x8",
             new Block(FabricBlockSettings.copy(Blocks.QUARTZ_BLOCK).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS = registerBlock("compressed_glass_x1",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 40).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 40).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS2 = registerBlock("compressed_glass_x2",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 100).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 100).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS3 = registerBlock("compressed_glass_x3",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 200).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 200).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS4 = registerBlock("compressed_glass_x4",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 1000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(2, 1000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS5 = registerBlock("compressed_glass_x5",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(3, 2000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(3, 2000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS6 = registerBlock("compressed_glass_x6",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(3, 5000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(3, 5000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS7 = registerBlock("compressed_glass_x7",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4, 10000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(4, 10000).requiresTool().nonOpaque()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_GLASS8 = registerBlock("compressed_glass_x8",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.GLASS).strength(4, 100000).requiresTool()), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL = registerBlock("compressed_wool_x1",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 40)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 40)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL2 = registerBlock("compressed_wool_x2",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 100)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 100)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL3 = registerBlock("compressed_wool_x3",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 200)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 200)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL4 = registerBlock("compressed_wool_x4",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 1000)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(2, 1000)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL5 = registerBlock("compressed_wool_x5",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(3, 2000)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(3, 2000)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL6 = registerBlock("compressed_wool_x6",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(3, 5000)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(3, 5000)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL7 = registerBlock("compressed_wool_x7",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 10000)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 10000)), ItemGroups.BUILDING_BLOCKS);
     public static final Block COMPRESSED_WOOL8 = registerBlock("compressed_wool_x8",
-            new GlassBlock(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 100000)), ItemGroups.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL).strength(4, 100000)), ItemGroups.BUILDING_BLOCKS);
     //Ores
     public static final Block COMPRESSED_AMETHYST = registerBlock("compressed_amethyst_x1",
             new AmethystBlock(FabricBlockSettings.copy(Blocks.AMETHYST_BLOCK).strength(2, 40).requiresTool()), ItemGroups.BUILDING_BLOCKS);
