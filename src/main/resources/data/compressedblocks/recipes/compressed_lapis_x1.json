@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:lapis_block"
+      "tag": "c:lapis_blocks"
     }
   },
   "result": {

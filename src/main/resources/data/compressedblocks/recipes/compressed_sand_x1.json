@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:sand"
+      "tag": "c:sand"
     }
   },
   "result": {
