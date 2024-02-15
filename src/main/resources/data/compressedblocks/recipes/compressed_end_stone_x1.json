@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:end_stone"
+      "tag": "c:end_stones"
     }
   },
   "result": {

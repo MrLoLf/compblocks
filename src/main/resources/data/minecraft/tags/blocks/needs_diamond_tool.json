@@ -7,6 +7,7 @@
     "compressedblocks:compressed_stone_x8",
     "compressedblocks:compressed_terracotta_x8",
     "compressedblocks:compressed_end_stone_x8",
+    "compressedblocks:compressed_netherite_x8",
     "compressedblocks:compressed_netherrack_x8",
     "compressedblocks:compressed_iron_x8",
     "compressedblocks:compressed_clay_x8",
@@ -32,7 +33,6 @@
     "compressedblocks:compressed_lapis_x8",
     "compressedblocks:compressed_obsidian_x8",
     "compressedblocks:compressed_quartz_x8",
-    "compressedblocks:compressed_redstone_x8",
-    "compressedblocks:compressed_netherite_x8"
+    "compressedblocks:compressed_redstone_x8"
   ]
 }

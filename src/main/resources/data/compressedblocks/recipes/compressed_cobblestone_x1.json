@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cobblestone"
+      "tag": "c:cobblestones"
     }
   },
   "result": {
