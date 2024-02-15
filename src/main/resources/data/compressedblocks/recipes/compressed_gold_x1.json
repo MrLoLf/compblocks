@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gold_block"
+      "tag": "c:gold_blocks"
     }
   },
   "result": {
