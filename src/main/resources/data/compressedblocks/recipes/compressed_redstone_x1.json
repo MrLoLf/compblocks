@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:redstone_block"
+      "tag": "c:redstone_blocks"
     }
   },
   "result": {

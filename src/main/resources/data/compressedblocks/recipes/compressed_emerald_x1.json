@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:emerald_block"
+      "tag": "c:emerald_blocks"
     }
   },
   "result": {
