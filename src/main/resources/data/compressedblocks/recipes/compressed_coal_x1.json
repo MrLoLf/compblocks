@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:coal_block"
+      "tag": "c:coal_blocks"
     }
   },
   "result": {

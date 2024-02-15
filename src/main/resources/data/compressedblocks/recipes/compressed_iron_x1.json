@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:iron_block"
+      "tag": "c:iron_blocks"
     }
   },
   "result": {
