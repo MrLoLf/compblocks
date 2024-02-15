@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "compressedblocks:compressed_birch_x6"
+          "name": "compressedblocks:compressed_coal_x6"
         }
       ],
       "conditions": [

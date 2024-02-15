@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:netherite_block"
+      "tag": "c:netherite_blocks"
     }
   },
   "result": {

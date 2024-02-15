@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:copper_block"
+      "tag": "c:copper_blocks"
     }
   },
   "result": {
