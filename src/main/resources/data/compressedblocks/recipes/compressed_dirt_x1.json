@@ -7,7 +7,7 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dirt"
+      "tag": "c:dirt"
     }
   },
   "result": {
